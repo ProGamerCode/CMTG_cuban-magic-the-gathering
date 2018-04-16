@@ -1,5 +1,5 @@
 #pragma once
-
+#pragma region version 
 /*
 	Current Version		2.3.2
 
@@ -104,7 +104,8 @@
 	1.0.1		2017/03/02	readDirectory()							Added CONTENTS enum parameter
 	1.0.1		2017/03/02	readDirectory()							Replaced call to wordSplit() with tokenSplit() to allow underscores in file names
 */
-
+#pragma endregion 
+#pragma region includes
 #include "constants.h"
 #include "xmltree.h"
 
@@ -119,7 +120,8 @@
 #include <cstddef>			// For std::size_t
 #include <regex>
 #include <fstream>
-
+#pragma endregion
+#pragma region ConditionalIncludes
 #if defined(WIN32) || defined(_WIN32) || defined(WIN64) || defined(_WIN64)
 #include <windows.h>		// Windows console
 #elif defined __linux || defined linux || defined __APPLE__
@@ -132,7 +134,7 @@
 #include <boost/filesystem.hpp>
 #include <boost/range/iterator_range.hpp>
 #endif
-
+#pragma endregion
 class Tools {
 	private:		
 		// Helper functions

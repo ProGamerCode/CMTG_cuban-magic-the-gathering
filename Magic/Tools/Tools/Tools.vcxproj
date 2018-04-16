@@ -155,6 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="catch.hpp" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="tools.h" />
     <ClInclude Include="xmlnode.h" />
@@ -162,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tools.cpp" />
+    <ClCompile Include="UNITects_Catch.cpp" />
     <ClCompile Include="xmlnode.cpp" />
     <ClCompile Include="xmltree.cpp" />
   </ItemGroup>

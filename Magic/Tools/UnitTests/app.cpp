@@ -4,12 +4,12 @@
 #include <vector>
 
 // AVOID LNK2019 ERRORS
-#include "rules.cpp"
-/*
+//#include "tools.cpp"
+
 #include "tools.cpp"
 #include "xmltree.cpp"
 #include "xmlnode.cpp"
-*/
+
 
 #define EXIT_SUCCESS 0
 #define EXIT_FAILURE 1
